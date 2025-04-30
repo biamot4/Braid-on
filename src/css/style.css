@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+header{
+    background-color: #DD68AE;
+    justify-content: space-between;
+    height: 4.0rem;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 15.3rem;
+    height: 3.0rem;
+    margin-left: 4.4rem;
+}
+
+#perfil{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 4.6rem;
+    cursor: pointer;
+}
+
+.marque_agora{
+    margin-left: 4.4rem;
+    margin-top: 4.0rem;
+    background-color: #7C054C;
+    width: 45.4rem;
+    height: 70.9rem;
+}
+
+.marque_agora img{
+    width: 45.4rem;
+    height: 6.2rem;
+}
+
+.marque_agora h1{
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 7.0rem;
+    color: white;
+    font-weight: 600;
+    margin-left: 4.5rem;
+    margin-top: 8.9rem;
+    width: 40.0rem;
+}
+
+.marque_agora h2{ 
+    margin-top: 2.0rem;
+    margin-bottom: 1.0rem;
+    margin-left: 4.5rem;
+    width: 25.0rem;
+    height: 1.0rem;
+    background-color: #FFB1B1;
+}
+
+.principal{
+    display: flex;
+}
+
+.horario_data{
+    display: flex;
+}
+
+.agendamento{
+    margin-left: 13.0rem;
+    margin-top: 4.0rem;
+    height: 33.0rem;
+    width: 60.0rem;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #340438;
+    border-radius: 2.0rem;
+    padding-top: 0.5rem;
+}
+
+.nome{
+    margin: 2.0rem 0 0 4.5rem;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nome h2{
+    font-weight: 400;
+    margin: 1.0rem;
+}
+
+#nome{
+    width: 50.0rem;
+    height: 3.9rem;
+    border: none;
+    border-radius: 3.0rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#nome::placeholder{
+    font-family: 'League Spartan',Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5rem
+}
+
+.horario_data{
+    margin-top: 2.0rem;
+    margin-left: 4.5rem;
+}
+
+.date{
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.date h2{
+    font-weight: 400;
+    margin-left: 1.0rem;
+}
+
+#input_data{
+    width: 22.5rem;
+    height: 3.0rem;
+    border-radius: 3.0rem;
+    border: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.time{
+    margin-left: 5.0rem;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.time h2{
+    font-weight: 400;
+    margin-left: 1.0rem;
+}
+
+#horarios{
+    font-size: 1.5rem;
+    width: 22.5rem;
+    height: 3.0rem;
+    border-radius: 3.0rem;
+    border: none;
+    padding-left: 1.0rem; 
+}
+
+.pagamento{
+    margin-top: 3.0rem;
+    margin-left: 4.5rem;
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    align-items: center;
+}
+
+.pagamento h2{
+    font-weight: 400;
+    margin-left: 1.0rem;
+}
+
+.checkbox{
+    margin-left: 1.0rem;
+    margin-top: 1.5rem;
+    font-size: 2.0rem;
+}
+
+#pix{
+    width: 2.0rem;
+    height: 2.0rem;
+}
+
+#dinheiro{
+    margin-left: 2.8rem;
+    width: 2.0rem;
+    height: 2.0rem;
+}
+
+.tipo_tranca{
+    display: flex;
+    margin-top: 5.5rem;
+    margin-left: 5.0rem;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 400;   
+    width: 18.0rem;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 1.5rem;
+  }
+
+.agendamento h1{
+    font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 5.0rem;
+    
+}
+
+.agendar{
+    margin-top: 3.0rem;
+    width: 25.0rem;
+    height: 4.0rem;
+    background-color: #CF007C;
+    border: none;
+    border-radius: .6rem;
+    color: white;
+    font-size: 2.0rem;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.campoobrigatorio{
+    color: #ff0404;
+    margin-top: 1.0rem;
+    display: none;
+}

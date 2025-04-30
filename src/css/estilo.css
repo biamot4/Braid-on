@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    font-family: 62.5%;
+}
+ header{
+    background-color: #DD68AE;
+    justify-content: space-between;
+    height: 4.0rem;
+    display: flex;
+    align-items: center;
+ }
+
+.logo img{
+    width: 15.3rem;
+    height: 3.0rem;
+    margin-left: 4.4rem;
+}
+
+.perfil img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 4.6rem;
+    cursor: pointer;
+}
+
+main{
+font-family: 'League Spartan', Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+
+.principal{
+    margin-left: 4.4rem;
+    margin-right: 16.0rem;
+    margin-bottom: 12.7rem;
+    margin-top: 6.3rem;
+    gap: 10.2rem;
+    display: flex;
+}
+
+.agendamento{
+display: flex;
+flex-direction: column;
+background-color: #7C054C;
+width: 86.6rem;
+height: 27.0rem;
+border-radius: 1.0rem;
+justify-content: center;
+align-items: center;
+}
+
+.agendamento h2{
+    color: white;
+    font-size: 6.0rem;
+    width: 35.6rem;
+}
+.agendamento p{
+    background-color: #FFB1B1;
+    width: 20.9rem;
+    height: 1.0rem;
+    margin-top: 2.0rem;
+    margin-bottom: 2.3rem;
+    margin-right: 14.7rem;
+}
+
+.principal h3{
+    display: flex;
+    flex-direction: column;
+    font-size: 5.5rem;
+    color: #340438;
+    justify-content: center;
+}
+span{
+    color: #CF007C;
+}
+
+.linha{
+    display: flex;
+    gap: 5.5rem;
+    margin-left: 3.4rem;
+    margin-right: 7.4rem;
+}
+
+.linha p{
+    font-size: 2.0rem;
+    color: black;
+}
+
+.linha h4{
+        color:#7C054C ;
+        margin-bottom: 1.6rem;
+        font-size: 2.0rem;
+}
+
+
+.nome{
+    display: flex;
+    flex-direction: column;
+}
+.nome p{
+    width: 34.1rem;
+    margin-left: 1.0rem;
+    margin-right: 1.0rem;
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.fundo1{
+    background-color: #FFB1B1;
+    width: 36.1rem;
+    height: 6.4rem;
+    border-radius: 1.0rem;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.data p{
+    width: 22.2rem;
+    text-align: center;
+    margin-left: 1.0rem;
+    margin-right: 1.0rem;
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+.fundo2{
+    background-color: #FFB1B1;
+    width: 25.2rem;
+    height: 6.4rem;
+    border-radius: 1.0rem;
+}
+
+.horario{
+    display: flex;
+    flex-direction: column;
+}
+
+.horario p{
+    width: 18.4rem;
+    text-align: center;
+    margin-left: 1.0rem;
+    margin-right: 1.0rem;
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+.fundo3{
+    background-color: #FFB1B1;
+    width: 20.4rem;
+    height: 6.4rem;
+    border-radius: 1.0rem;
+}
+
+.seta img{
+    width: 6.3rem;
+    height: 6.3rem;
+    margin-top: 10.5rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+}
+

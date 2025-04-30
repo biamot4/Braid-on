@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braid On</title>
+    <link rel="icon" href="src/img/logo_trancista.png">
+    <link rel="stylesheet" href="src/css/estilo.css">
+</head>
+
+<body>
+    <header>
+
+        <figure class="logo">
+            <img src="src/img/logo.png" alt="">
+        </figure>
+
+        <figure class="perfil">
+            <img src="src/img/foto_perfil.png" alt="">
+        </figure>
+
+    </header>
+
+    <main>
+        <div class="principal">
+
+            <div class="agendamento">
+                <h2>Agendado com sucesso!</h2>
+                    <p></p>
+                
+                
+            </div>
+
+            <h3>Obrigada pela <span>preferência</span></h3>
+        </div>
+
+        <div class="linha">
+
+            <div class="nome">
+                <h4 class="1">A sessão de</h4>
+                <div class="fundo1">
+                    <p class="nomecliente">--</p>
+                </div>
+            </div>
+
+            <div class="data">
+                <h4 class="2">Foi agendada para o dia</h4>
+                <div class="fundo2">
+                    <p class="datacliente">--</p>
+                </div>
+            </div>
+
+            <div class="horario">
+                <h4 class="3">às</h4>
+                <div class="fundo3">
+                    <p class="horariocliente">--</p>
+                </div>
+            </div>
+        </div>
+
+        <figure class="seta">
+           <a href="index.html"><img src="src/img/seta.png" alt="" class="img"></a> 
+        </figure>
+    </main>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.nomecliente').textContent = localStorage.getItem('nometela')
+            document.querySelector('.datacliente').textContent = localStorage.getItem('datatela')
+            document.querySelector('.horariocliente').textContent = localStorage.getItem('horariotela')
+        })
+    </script>
+
+
+</body>
+
+</html>

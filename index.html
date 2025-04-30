@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braid On</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="icon" href="src/img/logo_trancista.png">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="src/img/logo.png" alt="Logo do site Braid On" id="logo">
+        </figure>
+
+        <figure>
+            <img src="src/img/foto_perfil.png" alt="Foto de perfil do usuário" id="perfil">
+        </figure>
+    </header>
+
+    <main>
+        <div class="principal">
+            <div class="marque_agora">
+                <img src="src/img/image.png" alt="imagem de uma pintura africana">
+
+                <h1>MARQUE AGORA A SUA SESSÃO! </h1>
+                <h2></h2>
+            </div>
+            <form>
+            <div class="agendamento">
+                <div class="nome">
+                    <h2>Nome Completo</h2>
+                    <input type="text" id="nome" placeholder="Digite aqui o seu nome!">
+                    <p class="campoobrigatorio">Campo Obrigatório!</p>
+                </div>
+
+                <div class="horario_data">
+                    <div class="date">
+                        <h2>Data</h2>
+                        <input type="date" name="data" id="input_data">
+                        <p class="campoobrigatorio">Campo Obrigatório!</p>
+                    </div>
+
+                    <div class="time">
+                        <h2>Horários</h2>
+                        <select name="horarios" id="horarios">
+                            <option>Horários disponíveis</option>
+                            <option value="11:00">11:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="17:00">17:00</option>
+                        </select>
+                        <p class="campoobrigatorio">Campo Obrigatório!</p>
+                    </div>
+                </div>
+
+                <div class="pagamento">
+                   
+                    <h2>Forma de pagamento:</h2>
+                    <div class="checkbox">
+                        <input type="checkbox" name="pix" id="pix">
+                        <label for="pix">Pix</label>
+
+                        <input type="checkbox" name="dinheiro" id="dinheiro">
+                        <label for="dinheiro">Dinheiro</label>
+                    </div>
+                    <p class="campoobrigatorio">Campo Obrigatório!</p>
+                </div>
+
+                <div class="tipo_tranca">
+                    <h1>Tipo de Trança:</h1>
+        
+                    <ul>
+                        <li>
+
+                            <input type="radio" name="boxbraids" id="boxbraids">
+                            <label for="boxbraids" class="n">Box braids</label>
+                        </li>
+                        
+                        <li>
+
+                            <input type="radio" name="Trançatwist" id="Trançatwist">
+                            <label for="Trançatwist" class="n">Trança twist</label>
+                        </li>
+                        
+                        <li>
+
+                            <input type="radio" name="Trançanago" id="Trancanago">
+                            <label for="Trançanago" class="n">Trança nagô</label>
+                        </li>
+                        
+                        <li>
+
+                            <input type="radio" name="Gypsybraids" id="Gypsybraids">
+                            <label for="Gypsybraids" class="n">Gypsy braids</label>
+                        </li>
+                        
+                    </ul>
+                    <p class="campoobrigatorio">Campo Obrigatório!</p>
+                    
+                   <button type="submit"  class="agendar">Agendar!</button>
+                   
+                </div>
+            </div>
+        </div>
+    </form>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
